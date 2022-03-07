@@ -1,15 +1,21 @@
 <script lang="ts">
   import Image from "$lib/components/Image.svelte";
 
-  const widths = [ 800, 1280, 1920, 2048, 3840 ];
-
-  const width = 1000;
-  const height = Math.ceil(1280/1920 * width);
+  const config = {
+    id: 'retro_gaming',
+    sizes: [
+      { width: 640, max_width: 800 },
+      { width: 1000, max_width: 1280 },
+      { width: 1920, max_width: 2500 },
+      { width: 3840, max_width: 4500 },
+    ],
+    base: { width: 640, max_width: 800 }
+  };
 </script>
 
 <section class="w-screen relative shadow-xl">
   <div class="absolute inset-0">
-    <Image id="retro_gaming" widths={widths} alt="Retro Gaming" {width} {height} loading="lazy" class="h-full w-full object-cover grayscale" />
+    <Image alt="Retro Gaming" class="h-full w-full object-cover grayscale" {config} />
   </div>
 
   <div class="absolute inset-0 bg-green-500 dark:bg-green-900 mix-blend-multiply backdrop-blur-sm" />
