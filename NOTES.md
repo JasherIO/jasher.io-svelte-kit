@@ -2,8 +2,11 @@
 
 - [Fontsource](https://fontsource.org/)
 - [Variable Fonts (Google Fonts)](https://fonts.google.com/variablefonts)
-  - [Comfortaa](https://fonts.google.com/specimen/Comfortaa)
-  - [Commissioner](https://fonts.google.com/specimen/Commissioner)
+  - ~~[Comfortaa](https://fonts.google.com/specimen/Comfortaa)~~
+  - ~~[Commissioner](https://fonts.google.com/specimen/Commissioner)~~
+  - ~~[Fredoka](https://fonts.google.com/specimen/Fredoka)~~
+  - [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+  - [Raleway (B)](https://fonts.google.com/specimen/Raleway)
 
 # JSON
 
