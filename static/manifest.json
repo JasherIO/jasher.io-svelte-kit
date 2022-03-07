@@ -1,0 +1,61 @@
+{
+	"background_color": "#171717",
+	"theme_color": "#22c55e",
+	"name": "Jasher",
+	"short_name": "Jasher",
+  "description": "",
+	"display": "minimal-ui",
+	"start_url": "/",
+	"icons": [
+		{
+			"src": "favicon.ico",
+			"sizes": "48x48"
+		},
+    {
+			"src": "favicons/favicon-16x16.png",
+			"sizes": "16x16",
+      "type": "image/png"
+		},
+    {
+			"src": "favicons/favicon-32x32.png",
+			"sizes": "32x32",
+      "type": "image/png"
+		},
+    {
+			"src": "favicons/android-chrome-192x192.png",
+			"sizes": "192x192",
+      "type": "image/png"
+		},
+		{
+			"src": "favicons/android-chrome-512x512.png",
+			"sizes": "512x512",
+      "type": "image/png"
+		}
+	],
+  "shortcuts": [
+    { 
+      "name": "About",
+      "short_name": "About",
+      "description": "About Jasher",
+      "url": "/about"
+    },
+    { 
+      "name": "Blog",
+      "short_name": "Blog",
+      "description": "Posts from Jasher",
+      "url": "/blog"
+    },
+    { 
+      "name": "Contact",
+      "short_name": "Contact",
+      "description": "Contact Jasher",
+      "url": "/contact"
+    },
+    { 
+      "name": "Work",
+      "short_name": "Work",
+      "description": "Projects from Jasher",
+      "url": "/work"
+    }
+  ]
+}
