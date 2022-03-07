@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import { page } from '$app/stores';
   import Cross from './Icons/Cross.svelte';
   import Github from './Icons/Github.svelte';
@@ -58,7 +58,7 @@
       <ul class="space-x-4 sm:space-x-6 text-neutral-600 dark:text-neutral-400">
         {#each routes.filter(x => x?.desktop) as route}
           <li class="inline">
-            <a sveltekit:prefetch href={route.path} class="{$page.url.pathname === route.path ? 'text-neutral-700 dark:text-neutral-300' : 'hover:text-green-600 dark:hover:text-green-400'}">
+            <a sveltekit:prefetch href={route.path} class="{$page.url.pathname === route.path ? 'text-green-600 dark:text-green-400' : 'hover:text-green-600 dark:hover:text-green-400'}">
               {route.label}
             </a>
           </li>
@@ -84,7 +84,7 @@
       <ul class="contents space-y-8 text-neutral-600 dark:text-neutral-400">
         {#each routes as route}
           <li class="inline" on:click={toggle}>
-            <a sveltekit:prefetch href={route.path} class="{$page.url.pathname === route.path ? 'text-black dark:text-white' : 'hover:text-green-600 dark:hover:text-green-400'}">
+            <a sveltekit:prefetch href={route.path} class="{$page.url.pathname === route.path ? 'text-green-600 dark:text-green-400' : 'hover:text-green-600 dark:hover:text-green-400'}">
               {route.label}
             </a>
           </li>
