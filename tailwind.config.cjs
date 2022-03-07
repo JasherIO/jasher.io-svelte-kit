@@ -1,3 +1,4 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
 const typography = require('@tailwindcss/typography');
 const forms = require('@tailwindcss/forms');
 
@@ -7,7 +8,8 @@ const config = {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ['ComfortaaVariable', 'Comfortaa']
+				sans: ['"Open SansVariable"', '"Open Sans"', ...defaultTheme.fontFamily.sans],
+				display: ['RalewayVariable', 'Raleway', ...defaultTheme.fontFamily.sans]
 			}
 		}
 	},
