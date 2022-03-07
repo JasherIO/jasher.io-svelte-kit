@@ -36,7 +36,7 @@
   - chrome://inspect/#service-workers
   - chrome://serviceworker-internals
 - [Improving web font performance with service workers](https://gomakethings.com/improving-web-font-performance-with-service-workers/)
-  - Caching Fonts
+- [Making PWAs work offline with Service workers (MDN)](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Offline_Service_workers)
 - [Service Workers: An Introduction (Google Web Fundamentals)](https://developers.google.com/web/fundamentals/primers/service-workers)
 - [Workbox](https://developers.google.com/web/tools/workbox/guides/get-started)
 
