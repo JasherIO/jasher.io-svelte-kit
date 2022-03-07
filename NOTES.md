@@ -19,7 +19,21 @@
 - [JSON via endpoint](https://github.com/sveltejs/kit/blob/master/sites/kit.svelte.dev/src/routes/docs/%5Bslug%5D.json.js)
 - [Import](https://natclark.com/tutorials/svelte-importing-json/)
 
-# Response Headers
+# SEO
+
+## Cache-Control
 
 - [Caching Header Best Practices](https://simonhearne.com/2022/caching-header-best-practices/)
 - [Cache-Control (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control)
+
+## PWA / Service Workers
+
+- [Developer tools](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers#developer_tools)
+  - chrome://inspect/#service-workers
+  - chrome://serviceworker-internals
+- [How to make a SvelteKit App work offline?](https://myrmod.de/posts/how-to-make-a-sveltekit-app-work-offline)
+- [Service Workers: An Introduction (Google Web Fundamentals)](https://developers.google.com/web/fundamentals/primers/service-workers)
+
+## Sitemap
+
+- [Make a Sitemap with Sveltekit](https://scottspence.com/posts/make-a-sitemap-with-sveltekit)
