@@ -38,7 +38,7 @@
 
 <nav role="banner" aria-labelledby="primary-navigation" class="max-w-7xl mx-auto px-4 sm:px-8 h-16 flex items-center">
   <h2 id="primary-navigation" class="sr-only">Primary Navigation</h2>
-  <a sveltekit:prefetch href="/" class="font-bold hover:text-green-600 dark:hover:text-green-400">Jasher</a>
+  <a sveltekit:prefetch href="/" class="font-medium hover:text-green-600 dark:hover:text-green-400">Jasher</a>
 
   <!-- https://stackoverflow.com/questions/33924655/position-last-flex-item-at-the-end-of-container -->
   <span class="ml-auto">
