@@ -26,17 +26,17 @@ self.addEventListener('fetch', (event) => {
   })());
 });
 
-const clean = (key) => {
-  if (key === cache_name)
-    return;
+// // https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Offline_Service_workers#clearing_the_cache
+// const clean = (key) => {
+//   if (key === cache_name)
+//     return;
   
-  return caches.delete(key);
-}
+//   return caches.delete(key);
+// }
 
-// https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Offline_Service_workers#clearing_the_cache
-self.addEventListener('activate', (event) => {
-  event.waitUntil(async () => {
-    const keys = await caches.keys();
-    return Promise.all(keys.map(clean));
-  });
-});
+// self.addEventListener('activate', (event) => {
+//   event.waitUntil(async () => {
+//     const keys = await caches.keys();
+//     return Promise.all(keys.map(clean));
+//   });
+// });
