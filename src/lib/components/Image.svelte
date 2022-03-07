@@ -32,8 +32,6 @@
     return { url: _url, size };
   });
 
-  console.log(images);
-
   // const _srcset: string = images.map(image => `${image.url} ${image.size.width}w`).join(', ');
   const _srcset: string = images.map((image, index) => `${image.url} ${index+2}x`).join(', ');
   // const _sizes: string = images.map((image, index) => index === images.length-1 ? `${image.size.width}px` : `(max-width: ${image.size.max_width}) ${image.size.width}px`).join(', ');
