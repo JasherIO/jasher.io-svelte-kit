@@ -19,6 +19,11 @@
 - [JSON via endpoint](https://github.com/sveltejs/kit/blob/master/sites/kit.svelte.dev/src/routes/docs/%5Bslug%5D.json.js)
 - [Import](https://natclark.com/tutorials/svelte-importing-json/)
 
+# Markdown
+
+- [Example: www-mikenikles-com.now.sh](https://github.com/mikenikles/www-mikenikles-com)
+- [mdsvex](https://mdsvex.com/docs#layout)
+
 # SEO
 
 ## Cache-Control
