@@ -40,6 +40,8 @@
 	"dependencies": {
 		"@cloudinary/url-gen": "^1.6.0",
 		"@fontsource/open-sans": "^4.5.5",
-		"@fontsource/raleway": "^4.5.3"
+		"@fontsource/raleway": "^4.5.3",
+		"front-matter": "^4.0.2",
+		"tiny-invariant": "^1.2.0"
 	}
 }
