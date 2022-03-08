@@ -8,8 +8,7 @@ const config = {
 	theme: {
 		extend: {
 			fontFamily: {
-				sans: ['"Open SansVariable"', '"Open Sans"', ...defaultTheme.fontFamily.sans],
-				display: ['RalewayVariable', 'Raleway', ...defaultTheme.fontFamily.sans]
+				sans: ['"Open SansVariable"', '"Open Sans"', ...defaultTheme.fontFamily.sans]
 			}
 		}
 	},
