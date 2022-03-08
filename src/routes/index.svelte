@@ -1,7 +1,10 @@
 <script lang="ts">
-  import Hero from "$lib/components/Hero.svelte";
+  import Container from '$lib/components/Container.svelte';
+  import Hero from '$lib/components/Hero.svelte';
 </script>
 
-<main>
-  <Hero />
-</main>
+<Hero />
+
+<Container>
+  content
+</Container>
